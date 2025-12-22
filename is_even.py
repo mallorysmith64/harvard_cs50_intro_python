@@ -3,3 +3,9 @@ def is_even(n):
 
 n = 2
 print(is_even(n))
+
+def is_even_two(n):
+    return n % 2 == 0
+
+n = 5
+print(is_even_two(n))
