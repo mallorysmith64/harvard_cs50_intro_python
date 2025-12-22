@@ -10,3 +10,6 @@ while i <= 3:
     
 for i in [0,1,2]:
     print("Purr!")
+    
+for i in range(3):
+    print("Feline!")
