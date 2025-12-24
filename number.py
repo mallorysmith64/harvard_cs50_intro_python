@@ -1,5 +1,12 @@
-try:
-    number = int(input("Enter a number: "))
-    print(f"You entered: {number}")
-except ValueError:
-    print("That's not a valid number!")
+def main():
+    x = get_int()
+    print(f"X is {x}")
+
+def get_int():
+    while True:
+        try:
+            return int(input("What's x?"))
+        except ValueError:
+            pass
+        
+main()
